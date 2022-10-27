@@ -1,8 +1,17 @@
+import React from "react";
+
 function NavBar() {
   return (
-    <div>
-      <span>Componente NavBar!</span>
-    </div>
+    <React.Fragment>
+        <img src="" alt="no image"></img>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Nuevo entrenador</li>
+                <li>Acerca de nosotros</li>
+            </ul>
+        </nav>
+    </React.Fragment>
   );
 }
 
