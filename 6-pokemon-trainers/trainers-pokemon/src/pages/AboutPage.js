@@ -1,11 +1,8 @@
-import React from "react";
 function AboutPage() {
-    return (
-        <React.Fragment>
-            {/* maquetar esta sección mas tarde */}
+    return(
+        <>
             AboutPage
-
-        </React.Fragment>
+        </>
     );
 }
 

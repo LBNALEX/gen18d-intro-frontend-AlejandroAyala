@@ -1,9 +1,10 @@
-import React from "react";
-function ListCard(props) {
-    return (
-        <React.Fragment>
-           {props.children}
-        </React.Fragment>
+function ListCard(props) { // props: { children: {lo que venga entrre las tags } }
+    return(
+        <>
+            <div className="cards-container container-80">
+                {props.children}
+            </div>
+        </>
     );
 }
 

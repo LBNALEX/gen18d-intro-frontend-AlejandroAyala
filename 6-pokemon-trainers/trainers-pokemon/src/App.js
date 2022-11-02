@@ -9,8 +9,8 @@ import './App.css';
 function App() {
   return (
     <React.Fragment>
-      <NavBar></NavBar>
       
+      <NavBar></NavBar>      
       <SearchPage/>
       <CreatePage/>
       <AboutPage/>
